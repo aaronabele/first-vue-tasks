@@ -573,7 +573,6 @@ Vue.createApp({
   methods: {
     discountedPrice(price) {
       const listPrice = price.split("$");
-      console.log(listPrice);
       const discPrice = listPrice[1] * 0.8;
 
       return "$" + discPrice.toFixed(2);
